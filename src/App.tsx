@@ -1,12 +1,12 @@
 import React, {FC} from 'react';
+import AppRouter from "./components/AppRouter";
 
 const App: FC = () => {
-  return (
-      <div>
-        РАБОТАЕТ
-        РАБОТАЕТ
-      </div>
-  );
+    return (
+        <div>
+            <AppRouter/>
+        </div>
+    );
 };
 
 export default App;
